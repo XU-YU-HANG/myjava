@@ -16,10 +16,11 @@ public class jihe {
         Iterator it=c.iterator();
         while (it.hasNext()){
             Object a=it.next();
-            it.remove();
             System.out.println(a);
 
         }
+        System.out.println("----------------");
         System.out.println(c.size());
+        System.out.println(c.contains(30));
     }
 }
